@@ -21,7 +21,7 @@ const SubmitPage = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:5000/scan/submit', {
+      const response = await fetch('https://vibesecure-backend.onrender.com/scan/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

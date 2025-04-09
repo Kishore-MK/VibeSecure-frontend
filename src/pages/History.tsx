@@ -14,7 +14,7 @@ const History = () => {
   useEffect(() => {
     async function fetchRuns() {
       try {
-        const res = await fetch("http://localhost:5000/scan/runs", {
+        const res = await fetch("https://vibesecure-backend.onrender.com/scan/runs", {
           credentials: "include",
         });
         const data = await res.json();

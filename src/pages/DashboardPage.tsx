@@ -47,7 +47,7 @@ const DashboardPage = () => {
         console.log(runId);
 
         const response = await fetch(
-          `http://localhost:5000/scan/issues/${runId}`,
+          `https://vibesecure-backend.onrender.com/scan/issues/${runId}`,
          { method: "GET",
           credentials:"include"
          }

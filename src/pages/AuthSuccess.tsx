@@ -7,7 +7,7 @@ export const AuthSuccess = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const res = await fetch("http://localhost:5000/auth/user", {
+        const res = await fetch("https://vibesecure-backend.onrender.com/auth/user", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
